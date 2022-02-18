@@ -2,7 +2,7 @@
 //  Course.swift
 //  GPA Calculator
 //
-//  Created by Joshua Lopez-Boutier on 2/16/22.
+//  Created by Joshua Lopez-Boutier.
 //
 
 import Foundation

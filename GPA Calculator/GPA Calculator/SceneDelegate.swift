@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  GPA Calculator
 //
-//  Created by Joshua Lopez-Boutier on 2/15/22.
+//  Created by Joshua Lopez-Boutier.
 //
 
 import UIKit
