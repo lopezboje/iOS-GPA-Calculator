@@ -14,6 +14,8 @@
 		884189E327BC49CE005B856E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884189E227BC49CE005B856E /* Assets.xcassets */; };
 		884189E627BC49CE005B856E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884189E427BC49CE005B856E /* LaunchScreen.storyboard */; };
 		88FEB0E427BC7EF30036D06D /* college.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88FEB0E327BC7EF30036D06D /* college.ttf */; };
+		88FEB0E727BD874E0036D06D /* Assessments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FEB0E627BD874E0036D06D /* Assessments.swift */; };
+		88FEB0EA27BDB1FA0036D06D /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FEB0E927BDB1FA0036D06D /* Course.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +26,10 @@
 		884189E027BC49CC005B856E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		884189E227BC49CE005B856E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		884189E527BC49CE005B856E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		884189E727BC49CE005B856E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "/Users/joshualb/Documents/GitHub/GPA Calculator/GPA Calculator/Info.plist"; sourceTree = "<absolute>"; };
-		88FEB0E327BC7EF30036D06D /* college.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = college.ttf; path = "GPA Calculator/college.ttf"; sourceTree = SOURCE_ROOT; };
+		884189E727BC49CE005B856E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88FEB0E327BC7EF30036D06D /* college.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = college.ttf; sourceTree = "<group>"; };
+		88FEB0E627BD874E0036D06D /* Assessments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assessments.swift; sourceTree = "<group>"; };
+		88FEB0E927BDB1FA0036D06D /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 		884189CD27BC49CC005B856E = {
 			isa = PBXGroup;
 			children = (
+				88FEB0E827BDB1790036D06D /* Classes */,
 				884189D827BC49CC005B856E /* GPA Calculator */,
 				884189D727BC49CC005B856E /* Products */,
 			);
@@ -68,6 +73,15 @@
 				88FEB0E327BC7EF30036D06D /* college.ttf */,
 			);
 			path = "GPA Calculator";
+			sourceTree = "<group>";
+		};
+		88FEB0E827BDB1790036D06D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				88FEB0E627BD874E0036D06D /* Assessments.swift */,
+				88FEB0E927BDB1FA0036D06D /* Course.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +157,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				884189DE27BC49CC005B856E /* ViewController.swift in Sources */,
+				88FEB0E727BD874E0036D06D /* Assessments.swift in Sources */,
+				88FEB0EA27BDB1FA0036D06D /* Course.swift in Sources */,
 				884189DA27BC49CC005B856E /* AppDelegate.swift in Sources */,
 				884189DC27BC49CC005B856E /* SceneDelegate.swift in Sources */,
 			);
@@ -301,7 +317,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,7 +346,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
